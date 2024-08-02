@@ -1,7 +1,6 @@
 header section{
-    width: 1024px;
-    margin: 0 auto;
-    display: flex;
+    
+    
     justify-content: space-between;
     align-items: center;
 
@@ -20,8 +19,13 @@ header section ul li {
 header section ul li a {
     text-decoration: none;
     color: #3399CC;
+    transition: 0.5s;
 }
 
-header section ul li .btn-button {
-    background-color: red;
+
+header section ul li a:hover {
+    text-decoration: none;
+    color: #80bedd;
+    text-decoration: underline;
+    
 }

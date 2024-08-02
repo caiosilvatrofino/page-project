@@ -10,6 +10,8 @@ header section ul li .btn-button {
     border: 2px solid white;
     opacity: 0.8;
     cursor: pointer;
+    padding: 5px 30px;
+    border-radius: 15px;
 }
 
 
