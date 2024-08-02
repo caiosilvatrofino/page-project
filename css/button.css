@@ -1,0 +1,22 @@
+header section ul li .btn-button {
+
+    padding: 5px 30px;
+    border-radius: 15px;
+}
+
+.btn-laranja {
+    background-color: #ff6633;
+    color: #fff;
+    border: 2px solid white;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+
+.btn-laranja:hover {
+    background-color: #ff6633;
+    color: #fff;
+    border: 2px solid white;
+    opacity: 1;
+    cursor: pointer;
+}
