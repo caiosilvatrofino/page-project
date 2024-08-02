@@ -1,6 +1,7 @@
 @import "./header.css";
 @import "./button.css";
 @import "./main.css";
+@import "./footer.css";
 
 /* RESET ALL CONTENT OF CSS */
 * {
@@ -12,13 +13,14 @@
     vertical-align: baseline;
     text-decoration: none;
     list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
     
 }
 
 .container {
     display: flex;
     flex-direction: column;
-    width: 1024px;
+    width: 1300px;
     margin: 0 auto;
     
 }
@@ -31,4 +33,18 @@
 
 .sobre-web-design figcaption img {
     width: 600px;
+}
+
+section article .btn-button {
+    padding: 14px 48px;
+}
+
+
+body {
+    background-image: url(../assets/imagens/bolha-background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: left;
+    
+    
 }
